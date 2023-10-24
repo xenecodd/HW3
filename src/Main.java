@@ -97,8 +97,8 @@ public class Main {
 
             while (!correctGuess) {
                 try {
-                    String input = JOptionPane.showInputDialog("Bir tahmin girin (1 ile 100 arasında):");
-                    int guess = Integer.parseInt(input);
+                    String giris = JOptionPane.showInputDialog("Bir tahmin girin (1 ile 100 arasında):");
+                    int guess = Integer.parseInt(giris);
 
                     if (guess < 1 || guess > 100) {
                         JOptionPane.showMessageDialog(null, "Geçersiz giriş! 1 ile 100 arasında bir sayı girin.");
